@@ -36,3 +36,13 @@ padding: 20px;
 font-size: 15px;
 background-color: whitesmoke;
 }
+.blog-display{
+display:grid;
+border: 5px solid burlywood;
+}
+ .blog-display{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}

@@ -19,3 +19,13 @@ justify-content: space-between;
 
 
 }
+.navigation-link{
+list-style-type: none;
+display:flex;
+flex-direction: row;
+
+}
+.navigation-link li {
+    margin:0 10px;
+    
+}

@@ -28,21 +28,21 @@ list-style-type: none;
 display:flex;
 flex-direction: row;
 background-color: burlywood;
-padding: 20px;
+
 }
 .navigation-link li {
     margin:0 10px;
     padding: 0;
 font-size: 15px;
-background-color: whitesmoke;
+
 }
-.blog-display{
-display:grid;
-border: 5px solid burlywood;
+.blog-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 10px;
+    padding: 10px;
+
 }
- .blog-display{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-  
+ .blog-card{
+    
 }

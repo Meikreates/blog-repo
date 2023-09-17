@@ -21,7 +21,7 @@ margin:0;
     padding: 40px;
     background-image: url(images/pexels-photo-3225526.jpg);
     margin-top: 15px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .navigation-link{
 list-style-type: none;
@@ -33,6 +33,6 @@ padding: 20px;
 .navigation-link li {
     margin:0 10px;
     padding: 0;
-font-size: 13px;
+font-size: 15px;
 background-color: whitesmoke;
 }

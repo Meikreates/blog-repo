@@ -1,0 +1,21 @@
+.page-layout {
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+
+}
+.header-container {
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content: space-between;
+}
+.hero-header{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+
+
+}

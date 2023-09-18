@@ -1,4 +1,4 @@
-@import "css/blog.css";
+@import url("css/blog.css");
 
 .page-layout {
   grid-template-areas:

@@ -1,5 +1,5 @@
 @import 'blog.css';
-
+@import 'styles2.css';
 .page-layout {
   grid-template-areas:
     "header header"
@@ -34,6 +34,7 @@
 background-image: url(pexels-photo-837745.jpg);
 background-size: cover;
 background-position: center;
+animation: changeBackground 16s linear infinite;
 
 }
 

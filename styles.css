@@ -23,6 +23,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 100vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   padding: 20%;
   margin-top: 15px;
   font-size: 15px center;
@@ -72,12 +74,12 @@ background-position: center;
 }
 
 .navigation-link li {
-  display: inline-block; /* Display the list items in a row */
-  margin-right: 20px; /* Add some spacing between list items */
-  font-size: 18px; /* Adjust the font size */
+  display: inline-block; 
+  margin-right: 20px;
+  font-size: 18px; 
 }
 
-/* Change the link color on hover */
+
 .navigation-link li a {
   text-decoration: none;
   color: #fff;
@@ -85,5 +87,5 @@ background-position: center;
 }
 
 .navigation-link li a:hover {
-  color: #ff6600; /* Change the link color on hover */
+  color: #ff6600; 
 }

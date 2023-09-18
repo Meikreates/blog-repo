@@ -1,0 +1,89 @@
+@import 'blog.css';
+
+.page-layout {
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+}
+
+.header-container {
+  background-color: #333; /* Change the background color to a dark color */
+  color: #fff; /* Change the text color to white */
+  padding: 20px; /* Add some padding to create spacing around the content */
+  display: flex;
+  justify-content: space-between; /* Space the elements evenly */
+  align-items: center;
+}
+.hero-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20%;
+  margin-top: 15px;
+  font-size: 15px center;
+  color: #fff; 
+background-image: url(pexels-photo-837745.jpg);
+background-size: cover;
+background-position: center;
+
+}
+
+.navigation-link {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  background-color: burlywood;
+}
+
+.navigation-link li {
+  margin: 0 10px;
+  padding: 0;
+  font-size: 15px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: lightgray;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header-container h5 {
+  font-family: Arial, sans-serif;
+  font-size: 24px; 
+  margin: 0; 
+}
+
+/* Style the navigation links */
+.navigation-link ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-link li {
+  display: inline-block; /* Display the list items in a row */
+  margin-right: 20px; /* Add some spacing between list items */
+  font-size: 18px; /* Adjust the font size */
+}
+
+/* Change the link color on hover */
+.navigation-link li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.navigation-link li a:hover {
+  color: #ff6600; /* Change the link color on hover */
+}

@@ -45,17 +45,17 @@
 }
 @keyframes changeBackground {
     60%, 80% {
-        background-image: url("pexels-photo-2506923.jpg"); 
+        background-image: url("/image/pexels-photo-2506923.jpg"); 
     }
     80% {
-        background-image: url("pexels-photo-3163599.jpg"); 
+        background-image: url("/image/pexels-photo-3163599.jpg"); 
     }
     80% {
-        background-image: url("pexels-photo-2649394.jpg"); 
+        background-image: url("/image/pexels-photo-2649394.jpg"); 
         
     }
     80% {
-        background-image: url("pexels-photo-3225526.jpg"); 
+        background-image: url("/image/pexels-photo-3225526.jpg"); 
     }
 }
 

@@ -64,7 +64,7 @@ p {
 .sidebar-image {
   width: 200px;
   height: 200px;
-  background-image: url("free-photo-of-city-fashion-man-vacation.jpg");
+  background-image: url("/image/free-photo-of-city-fashion-man-vacation.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -124,16 +124,16 @@ p {
 }
 
 #github {
-  background-image: url("github.png");
+  background-image: url("/image/github.png");
 }
 
 #facebook {
-  background-image: url("facebook.png");
+  background-image: url("/image/facebook.png");
 }
 
 @font-face {
   font-family: "Hogback";
-  src: url("Hogback.otf") format("otf"),
+  src: url("/font/Hogback.otf") format("otf"),
     url("fonts/your-font.woff") format("woff");
   font-weight: normal;
   font-style: normal;

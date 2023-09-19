@@ -1,6 +1,6 @@
-@import "styles.css";
-@import "styles2.css";
-@import "blog.css";
+@import "/css/styles.css";
+@import "/css/styles2.css";
+@import "/css/blog.css";
 
 .footer {
   background-color: #06c3f8;
@@ -27,22 +27,22 @@
 }
 
 #facebook {
-  background-image: url("facebook.png");
+  background-image: url("/image/facebook.png");
 }
 
 #twitter {
-  background-image: url("twitter.png");
+  background-image: url("/image/twitter.png");
 }
 
 #instagram {
-  background-image: url("instagram.png");
+  background-image: url("/image/instagram.png");
 }
 
 #linkedin {
-  background-image: url("linkedin.png");
+  background-image: url("/image/linkedin.png");
 }
 #github {
-  background-image: url("github.png");
+  background-image: url("/image/github.png");
 }
 
 .email-link {

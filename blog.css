@@ -1,12 +1,13 @@
 @import 'styles.css';
 @import 'styles2.css';
+@import 'styles3.css';
 
 
 
 
 
 .hero-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Hogback', serif;
     font-size: 48px; 
     font-weight: bold;
     margin-bottom: 20px;
@@ -44,16 +45,17 @@
 }
 @keyframes changeBackground {
     60%, 80% {
-        background-image: url("pexels-photo-2506923.jpg"); /* First image */
+        background-image: url("pexels-photo-2506923.jpg"); 
     }
     80% {
-        background-image: url("pexels-photo-3163599.jpg"); /* Second image */
+        background-image: url("pexels-photo-3163599.jpg"); 
     }
     80% {
-        background-image: url("pexels-photo-2649394.jpg"); /* Third image */
+        background-image: url("pexels-photo-2649394.jpg"); 
+        
     }
     80% {
-        background-image: url("pexels-photo-3225526.jpg"); /* Fourth image */
+        background-image: url("pexels-photo-3225526.jpg"); 
     }
 }
 

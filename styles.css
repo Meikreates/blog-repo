@@ -1,5 +1,7 @@
-@import 'blog.css';
-@import 'styles2.css';
+@import "blog.css";
+@import "styles2.css";
+@import "styles3.css";
+
 .page-layout {
   grid-template-areas:
     "header header"
@@ -11,38 +13,36 @@
 }
 
 .header-container {
-  background-color: #333; /* Change the background color to a dark color */
-  color: #fff; /* Change the text color to white */
-  padding: 20px; /* Add some padding to create spacing around the content */
-  display: flex;
-  justify-content: space-between; /* Space the elements evenly */
-  align-items: center;
-}
-.hero-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  padding: 20%;
-  margin-top: 15px;
-  font-size: 15px center;
-  text-align: center;
-  color: #fff; 
-  overflow: hidden;
-background-image: url(pexels-photo-837745.jpg);
-background-size: cover;
-background-position: center;
-animation: changeBackground 16s linear infinite;
+  background-color: #06c3f8;
 
+  color: #ffffff;
+
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  text-shadow: #121212;
+}
+
+.hero-header {
+  background-image: url("pexels-photo-837745.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+  transition: background-image 0.5s ease;
+  background-image: url(pexels-photo-837745.jpg);
+  animation: changeBackground 16s linear infinite;
 }
 
 .navigation-link {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  background-color: burlywood;
+  background-color: #ff6600;
 }
 
 .navigation-link li {
@@ -53,7 +53,7 @@ animation: changeBackground 16s linear infinite;
 
 .sidebar {
   grid-area: sidebar;
-  background-color: lightgray;
+  background-color: rgb(255, 255, 255);
 }
 
 .main {
@@ -64,12 +64,11 @@ animation: changeBackground 16s linear infinite;
 }
 
 .header-container h5 {
-  font-family: Arial, sans-serif;
-  font-size: 24px; 
-  margin: 0; 
+  font-family: Hogback, sans-serif;
+  font-size: 24px;
+  margin: 0;
 }
 
-/* Style the navigation links */
 .navigation-link ul {
   list-style-type: none;
   margin: 0;
@@ -77,11 +76,10 @@ animation: changeBackground 16s linear infinite;
 }
 
 .navigation-link li {
-  display: inline-block; 
+  display: inline-block;
   margin-right: 20px;
-  font-size: 18px; 
+  font-size: 18px;
 }
-
 
 .navigation-link li a {
   text-decoration: none;
@@ -90,5 +88,15 @@ animation: changeBackground 16s linear infinite;
 }
 
 .navigation-link li a:hover {
-  color: #ff6600; 
+  color: #ff6600;
+}
+
+@font-face {
+  font-family: "Hogback";
+
+  src: url("Hogback.otf") format("otf"),
+    url("fonts/your-font.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
 }

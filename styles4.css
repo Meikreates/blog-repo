@@ -1,149 +1,149 @@
-/* Reset some default browser styles */
-body, h1, p {
-    margin: 0;
-    padding: 0;
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
 }
 
-/* Style the header */
 .header-container {
-    background-color:#06c3f8;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    font-family: hogback;
-    font-size: 25px;
+  background-color: #06c3f8;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: hogback;
+  font-size: 25px;
 }
 
 .navigation-link {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    background-color:#ff6600 ;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #ff6600;
 }
 
 .navigation-link li {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 .navigation-link a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    background-color: #ff6600;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ff6600;
+  transition: color 0.3s ease;
 }
 
 .navigation-link a:hover {
-    color: #333;
+  color: #333;
 }
 
-/* Style the blog post content */
 .blog-post {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .sidebar {
-    flex-basis: 30%;
-    background-color:#06c3f8;
-    padding: 20px;
-    border-radius: 5px;
-    position: relative; 
-    height: 500px;
-    overflow: hidden;
-
+  flex-basis: 30%;
+  background-color: #06c3f8;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
 }
 
 .sidebar-title {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .sidebar-image {
-    width: 200px;
-    height: 200px;
-    background-image: url('free-photo-of-city-fashion-man-vacation.jpg'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    bottom:0;
-    width: 200px;
-    left: 50%;
-    transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  background-image: url("free-photo-of-city-fashion-man-vacation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 .author-intro {
-    text-align: center;
+  text-align: center;
 }
 
 .post-content {
-    flex-basis: 65%;
+  flex-basis: 65%;
 }
 
 .blog-post h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-   text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .blog-post p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .blog-post ol {
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 
-/* Style the footer */
 .footer {
-    background-color:#06c3f8;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #06c3f8;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer-content {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .social-link {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #github {
-    background-image: url('github.png');
+  background-image: url("github.png");
 }
 
 #facebook {
-    background-image: url('facebook.png');
+  background-image: url("facebook.png");
 }
+
 @font-face {
-    font-family: 'Hogback'; 
-    src: url('Hogback.otf') format('otf'), 
-         url('fonts/your-font.woff') format('woff'); 
-    font-weight: normal;
-    font-style: normal;
-  }
-  .styled-image {
-    display: block; 
-    max-width: 100%; 
-    margin: 20px auto; 
-    border: 5px solid #ff6600;
-    border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  font-family: "Hogback";
+  src: url("Hogback.otf") format("otf"),
+    url("fonts/your-font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.styled-image {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border: 5px solid #ff6600;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

@@ -94,12 +94,15 @@
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
+
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif;
   border-radius: 10px;
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-sizing: border-box;
   height: 300px;
+  position: relative; /* Set .box as the positioning context */
+
 }
 
 
@@ -138,3 +141,24 @@
   }
 }
 
+
+
+.box figcaption {
+  position: absolute;
+  bottom: 0; /* Adjust as needed to control the position */
+  left: 0; /* Adjust as needed to control the position */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: #fff;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(100%); /* Hide initially */
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.box:hover figcaption {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -58,6 +58,8 @@ p {
   border-radius: 15px;
   position: relative;
   font-size: larger;
+  height: 1400px; /* Adjust the height to your preference */
+  overflow-y:0;
   
 }
 .sidebar-title {
@@ -76,6 +78,7 @@ p {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-color: #ff6600;
   border: 5px #ff6600;
+
 }
 .author-intro {
   text-align: center;
@@ -242,3 +245,67 @@ p {
 
   
 }
+
+
+.author-info {
+  text-align: center;
+  padding: 20px;
+}
+
+.author-avatar {
+  width: 150px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the avatar */
+}
+
+.author-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+.author-title {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #666; 
+}
+
+.author-company {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #666; 
+}
+
+.author-bio {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #444; 
+  line-height: 1.4; 
+}
+.social-sharing {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 20px; 
+}
+
+.social-sharing a {
+  margin-right: 10px; 
+  text-decoration: none;
+}
+
+.social-sharing img {
+  width: 30px; 
+  height: 30px; 
+  border: none; 
+  transition: transform 0.2s ease-in-out; 
+}
+
+.social-sharing img:hover {
+  transform: scale(1.2); 
+}
+

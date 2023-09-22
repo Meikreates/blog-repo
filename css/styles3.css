@@ -1,6 +1,6 @@
 @import "../css/styles.css";
 @import "../css/styles2.css";
-@import "/css/blog.css";
+@import "../css/blog.css";
 
 .footer {
   background-color: #06c3f8;

@@ -1,6 +1,6 @@
-@import "/css/blog.css";
-@import "/css/styles2.css";
-@import "/css/styles3.css";
+@import "./blog.css";
+@import "../css/styles2.css";
+@import "../css/styles3.css";
 
 
 .page-layout {
@@ -65,7 +65,7 @@
 
 .hero-header {
   grid-area: header;
-  background-image: url("/image/feet.jpg");
+  background-image: url("../image/feet.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -73,7 +73,7 @@
   font-size: xx-large;
   padding: 100px 0;
   transition: background-image 0.5s ease;
-  background-image: url("/image/pexels-photo-4198572.jpg");
+  background-image: url("../image/pexels-photo-4198572.jpg");
   animation: changeBackground 16s linear infinite;
 }
 
@@ -109,7 +109,7 @@
 
 .footer {
   grid-area: footer;
-  /* Footer styles go here */
+  
 }
 
 /* Add styles for the latest blog header */
